@@ -1,20 +1,49 @@
+body {
+    color: #1e1e1e;
+}
+
 .banner {
-    width: 790px;
     height: 120px;
     position: absolute;
-    top:0;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: auto;
+    margin: 20% auto auto;
     font-weight: bold;
-    color: #1e1e1e;
 }
+
 .title {
-    font: 72px "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font: 6em "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
     text-align: center;
 }
+
 .subtitle {
-    font: 26px "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    font: 2em "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+.contacts {
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto 20%;
+    text-align: center;
+    font: 1em "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.contact {
+    font: 0.9em "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact div {
+    margin-top: 3px;
 }
